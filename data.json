@@ -1,0 +1,328 @@
+[
+  {
+    "address": "Ажибека баатыра 15 А",
+    "lat": 42.839742,
+    "lng": 74.582983,
+    "area": 44,
+    "price": 76000,
+    "heating": "GAS",
+    "floor": 12,
+    "floor_total": 12,
+    "document": "TECHPASPORT",
+    "additional_info": "район хороший",
+    "owner_phone": "+996 508 668 869",
+    "id": 2,
+    "images": [
+      {
+        "id": 1782554992115,
+        "url": "/media/1782554992110-198567895.jpg",
+        "apartment_id": 2
+      },
+      {
+        "id": 1782554992116,
+        "url": "/media/1782554992111-186746173.jpg",
+        "apartment_id": 2
+      },
+      {
+        "id": 1782554992117,
+        "url": "/media/1782554992112-339762008.jpg",
+        "apartment_id": 2
+      },
+      {
+        "id": 1782554992118,
+        "url": "/media/1782554992113-850727872.jpg",
+        "apartment_id": 2
+      },
+      {
+        "id": 1782554992119,
+        "url": "/media/1782554992114-796546849.jpg",
+        "apartment_id": 2
+      }
+    ]
+  },
+  {
+    "address": "Улица Тимура Фрунзе, 100 блок 3 ",
+    "lat": 42.850473,
+    "lng": 74.531355,
+    "area": 43,
+    "price": 62000,
+    "heating": "CENTRAL",
+    "floor": 10,
+    "floor_total": 10,
+    "document": "TECHPASPORT",
+    "additional_info": "техпаспорт через 2 месяца",
+    "owner_phone": "+996 707 406 806",
+    "id": 3,
+    "images": [
+      {
+        "id": 1782556697617,
+        "url": "/media/1782556697607-483219307.jpg",
+        "apartment_id": 3
+      },
+      {
+        "id": 1782556697614,
+        "url": "/media/1782556697601-768075036.jpg",
+        "apartment_id": 3
+      },
+      {
+        "id": 1782556697615,
+        "url": "/media/1782556697603-661056416.jpg",
+        "apartment_id": 3
+      },
+      {
+        "id": 1782556697616,
+        "url": "/media/1782556697605-539774287.jpg",
+        "apartment_id": 3
+      },
+      {
+        "id": 1782556697618,
+        "url": "/media/1782556697608-132485010.jpg",
+        "apartment_id": 3
+      },
+      {
+        "id": 1782556697619,
+        "url": "/media/1782556697609-278326287.jpg",
+        "apartment_id": 3
+      },
+      {
+        "id": 1782556697620,
+        "url": "/media/1782556697612-525576696.jpg",
+        "apartment_id": 3
+      }
+    ]
+  },
+  {
+    "address": "Магистральная 7 ЖК Фламинго",
+    "lat": 42.809883,
+    "lng": 74.573147,
+    "area": 45,
+    "price": 67000,
+    "heating": "CENTRAL",
+    "floor": 6,
+    "floor_total": 9,
+    "document": "DDU",
+    "additional_info": "не достроен и далеко",
+    "owner_phone": "+996 501 808 989",
+    "imagesOrder": [
+      {
+        "type": "new",
+        "fileIndex": 0
+      },
+      {
+        "type": "new",
+        "fileIndex": 1
+      },
+      {
+        "type": "new",
+        "fileIndex": 2
+      },
+      {
+        "type": "new",
+        "fileIndex": 3
+      },
+      {
+        "type": "new",
+        "fileIndex": 4
+      }
+    ],
+    "id": 4,
+    "images": [
+      {
+        "id": 1782557616858,
+        "url": "/media/1782557616854-463467246.jpg",
+        "apartment_id": 4
+      },
+      {
+        "id": 1782557616859,
+        "url": "/media/1782557616855-86421109.jpg",
+        "apartment_id": 4
+      },
+      {
+        "id": 1782557616860,
+        "url": "/media/1782557616855-844699469.jpg",
+        "apartment_id": 4
+      },
+      {
+        "id": 1782557616861,
+        "url": "/media/1782557616857-854972253.jpg",
+        "apartment_id": 4
+      },
+      {
+        "id": 1782557616862,
+        "url": "/media/1782557616857-79327355.jpg",
+        "apartment_id": 4
+      }
+    ]
+  },
+  {
+    "address": "Льва Толстого, 126/19 ",
+    "lat": 42.863152,
+    "lng": 74.55841,
+    "area": 43,
+    "price": 72000,
+    "heating": "GAS",
+    "floor": 10,
+    "floor_total": 17,
+    "document": "TECHPASPORT",
+    "additional_info": "техпаспорт через 2 месяца",
+    "owner_phone": "+996 555 644 500",
+    "imagesOrder": [
+      {
+        "type": "new",
+        "fileIndex": 0
+      },
+      {
+        "type": "new",
+        "fileIndex": 1
+      },
+      {
+        "type": "new",
+        "fileIndex": 2
+      },
+      {
+        "type": "new",
+        "fileIndex": 3
+      },
+      {
+        "type": "new",
+        "fileIndex": 4
+      },
+      {
+        "type": "new",
+        "fileIndex": 5
+      },
+      {
+        "type": "new",
+        "fileIndex": 6
+      },
+      {
+        "type": "new",
+        "fileIndex": 7
+      },
+      {
+        "type": "new",
+        "fileIndex": 8
+      }
+    ],
+    "id": 5,
+    "images": [
+      {
+        "id": 1782557959075,
+        "url": "/media/1782557959070-420079070.jpg",
+        "apartment_id": 5
+      },
+      {
+        "id": 1782557959076,
+        "url": "/media/1782557959071-24826226.jpg",
+        "apartment_id": 5
+      },
+      {
+        "id": 1782557959077,
+        "url": "/media/1782557959072-849439705.jpg",
+        "apartment_id": 5
+      },
+      {
+        "id": 1782557959078,
+        "url": "/media/1782557959072-513198538.jpg",
+        "apartment_id": 5
+      },
+      {
+        "id": 1782557959079,
+        "url": "/media/1782557959073-702289213.jpg",
+        "apartment_id": 5
+      },
+      {
+        "id": 1782557959081,
+        "url": "/media/1782557959073-588008958.jpg",
+        "apartment_id": 5
+      },
+      {
+        "id": 1782557959082,
+        "url": "/media/1782557959074-135452274.jpg",
+        "apartment_id": 5
+      },
+      {
+        "id": 1782557959083,
+        "url": "/media/1782557959074-947274956.jpg",
+        "apartment_id": 5
+      },
+      {
+        "id": 1782557959084,
+        "url": "/media/1782557959075-708120393.jpg",
+        "apartment_id": 5
+      }
+    ]
+  },
+  {
+    "address": "Аалы Токомбаева улица, 27/3а ",
+    "lat": 42.821042,
+    "lng": 74.613547,
+    "area": 53,
+    "price": 78000,
+    "heating": "ELECTRIC",
+    "floor": 10,
+    "floor_total": 12,
+    "document": "DDU",
+    "additional_info": "",
+    "owner_phone": "+996 552 552 992",
+    "imagesOrder": [
+      {
+        "type": "new",
+        "fileIndex": 0
+      },
+      {
+        "type": "new",
+        "fileIndex": 1
+      },
+      {
+        "type": "new",
+        "fileIndex": 2
+      },
+      {
+        "type": "new",
+        "fileIndex": 3
+      },
+      {
+        "type": "new",
+        "fileIndex": 4
+      },
+      {
+        "type": "new",
+        "fileIndex": 5
+      }
+    ],
+    "id": 6,
+    "images": [
+      {
+        "id": 1782558202551,
+        "url": "/media/1782558202548-439582970.jpg",
+        "apartment_id": 6
+      },
+      {
+        "id": 1782558202552,
+        "url": "/media/1782558202548-980950266.jpg",
+        "apartment_id": 6
+      },
+      {
+        "id": 1782558202553,
+        "url": "/media/1782558202549-710957675.jpg",
+        "apartment_id": 6
+      },
+      {
+        "id": 1782558202554,
+        "url": "/media/1782558202550-410357254.jpg",
+        "apartment_id": 6
+      },
+      {
+        "id": 1782558202555,
+        "url": "/media/1782558202550-612260016.jpg",
+        "apartment_id": 6
+      },
+      {
+        "id": 1782558202556,
+        "url": "/media/1782558202550-182720167.jpg",
+        "apartment_id": 6
+      }
+    ]
+  }
+]
