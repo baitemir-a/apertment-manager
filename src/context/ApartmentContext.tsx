@@ -16,7 +16,8 @@ export const ApartmentProvider: React.FC<{ children: React.ReactNode }> = ({ chi
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/apartments')
+    const url = import.meta.env.DEV ? '/api/apartments' : '/data.json';
+    fetch(url)
       .then(res => res.json())
       .then(data => {
         setApartments(data);

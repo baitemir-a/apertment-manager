@@ -33,7 +33,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-const DATA_FILE = path.join(__dirname, 'data.json');
+const DATA_FILE = path.join(__dirname, 'public', 'data.json');
 
 // Initialize data file if it doesn't exist
 if (!fs.existsSync(DATA_FILE)) {
