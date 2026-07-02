@@ -25,12 +25,14 @@ const Navbar: React.FC = () => {
               <span>Карта</span>
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/admin" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-              <PlusCircle size={18} />
-              <span>Панель админа</span>
-            </NavLink>
-          </li>
+          {import.meta.env.DEV && (
+            <li>
+              <NavLink to="/admin" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+                <PlusCircle size={18} />
+                <span>Панель админа</span>
+              </NavLink>
+            </li>
+          )}
         </ul>
       </div>
     </nav>

@@ -17,7 +17,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Gallery />} />
               <Route path="/map" element={<MapPage />} />
-              <Route path="/admin" element={<Admin />} />
+              {import.meta.env.DEV && <Route path="/admin" element={<Admin />} />}
             </Routes>
           </main>
         </div>
