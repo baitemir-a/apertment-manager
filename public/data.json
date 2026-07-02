@@ -396,5 +396,95 @@
         "apartment_id": 7
       }
     ]
+  },
+  {
+    "address": "немецкий квартал",
+    "lat": 42.818074,
+    "lng": 74.614259,
+    "area": 55,
+    "price": 99000,
+    "heating": "GAS",
+    "floor": 14,
+    "floor_total": 14,
+    "document": "DDU",
+    "additional_info": "раскошно но дорого",
+    "owner_phone": "0999999999",
+    "imagesOrder": [
+      {
+        "type": "new",
+        "fileIndex": 0
+      },
+      {
+        "type": "new",
+        "fileIndex": 1
+      },
+      {
+        "type": "new",
+        "fileIndex": 2
+      },
+      {
+        "type": "new",
+        "fileIndex": 3
+      },
+      {
+        "type": "new",
+        "fileIndex": 4
+      },
+      {
+        "type": "new",
+        "fileIndex": 5
+      },
+      {
+        "type": "new",
+        "fileIndex": 6
+      },
+      {
+        "type": "new",
+        "fileIndex": 7
+      }
+    ],
+    "id": 8,
+    "images": [
+      {
+        "id": 1783007126040,
+        "url": "/media/1783007126021-832659127.jpg",
+        "apartment_id": 8
+      },
+      {
+        "id": 1783007126041,
+        "url": "/media/1783007126024-914024782.jpg",
+        "apartment_id": 8
+      },
+      {
+        "id": 1783007126042,
+        "url": "/media/1783007126026-283805901.jpg",
+        "apartment_id": 8
+      },
+      {
+        "id": 1783007126043,
+        "url": "/media/1783007126026-878457934.jpg",
+        "apartment_id": 8
+      },
+      {
+        "id": 1783007126044,
+        "url": "/media/1783007126027-418074818.jpg",
+        "apartment_id": 8
+      },
+      {
+        "id": 1783007126045,
+        "url": "/media/1783007126028-407268392.jpg",
+        "apartment_id": 8
+      },
+      {
+        "id": 1783007126046,
+        "url": "/media/1783007126029-447735482.jpg",
+        "apartment_id": 8
+      },
+      {
+        "id": 1783007126047,
+        "url": "/media/1783007126030-295202651.jpg",
+        "apartment_id": 8
+      }
+    ]
   }
 ]
