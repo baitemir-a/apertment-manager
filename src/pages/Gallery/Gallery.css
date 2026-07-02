@@ -25,9 +25,9 @@
 }
 
 .gallery-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
-  flex-wrap: wrap;
 }
 
 .empty-state {
@@ -72,4 +72,34 @@
 .filter-select:hover, .filter-select:focus {
   border-color: var(--color-primary);
   box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+@media (max-width: 640px) {
+  .gallery-container {
+    padding: 1.25rem 0.75rem;
+  }
+
+  .gallery-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .gallery-filters {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .filter-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
 }

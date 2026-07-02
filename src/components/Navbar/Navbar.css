@@ -59,3 +59,23 @@
   color: var(--color-primary);
   background-color: rgba(59, 130, 246, 0.1);
 }
+
+@media (max-width: 640px) {
+  .navbar-container {
+    padding: 0 0.75rem;
+  }
+
+  .brand-text {
+    display: none;
+  }
+
+  .navbar-nav {
+    gap: 0.25rem;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.85rem;
+    gap: 0.35rem;
+  }
+}
