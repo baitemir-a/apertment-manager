@@ -20,11 +20,14 @@ const documentLabels: Record<string, string> = {
   DDU: 'ДДУ'
 };
 
+const SWIPE_THRESHOLD = 50;
+
 const ApartmentCard: React.FC<Props> = ({ apartment }) => {
   const navigate = useNavigate();
   const { deleteApartment } = useApartments();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const touchStartX = React.useRef<number | null>(null);
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('ru-RU', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(price);
@@ -43,24 +46,43 @@ const ApartmentCard: React.FC<Props> = ({ apartment }) => {
   const hasImages = apartment.images && apartment.images.length > 0;
   const currentImageUrl = hasImages ? apartment.images[currentImageIndex].url : 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop'; // Placeholder
 
-  const handleNextImage = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    if (hasImages) {
+  const goNext = () => {
+    if (hasImages && apartment.images.length > 1) {
       setCurrentImageIndex((prev) => (prev + 1) % apartment.images.length);
     }
   };
 
-  const handlePrevImage = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    if (hasImages) {
+  const goPrev = () => {
+    if (hasImages && apartment.images.length > 1) {
       setCurrentImageIndex((prev) => (prev - 1 + apartment.images.length) % apartment.images.length);
     }
+  };
+
+  const handleNextImage = (e: React.MouseEvent) => { e.stopPropagation(); goNext(); };
+  const handlePrevImage = (e: React.MouseEvent) => { e.stopPropagation(); goPrev(); };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const delta = touchStartX.current - e.changedTouches[0].clientX;
+    if (Math.abs(delta) >= SWIPE_THRESHOLD) {
+      delta > 0 ? goNext() : goPrev();
+    }
+    touchStartX.current = null;
   };
 
   return (
     <>
       <div className="apartment-card glass">
-        <div className="card-image-container" onClick={() => hasImages && setIsModalOpen(true)}>
+        <div
+          className="card-image-container"
+          onClick={() => hasImages && setIsModalOpen(true)}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
           <img src={currentImageUrl} alt={apartment.address} className="card-image cursor-pointer" />
           <div className="card-price-badge">{formatPrice(apartment.price)}</div>
           
@@ -116,7 +138,12 @@ const ApartmentCard: React.FC<Props> = ({ apartment }) => {
 
       {isModalOpen && hasImages && (
         <div className="image-modal-overlay" onClick={() => setIsModalOpen(false)}>
-          <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
+          <div
+            className="image-modal-content"
+            onClick={(e) => e.stopPropagation()}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+          >
             <button className="modal-close" onClick={() => setIsModalOpen(false)}>
               <X size={24} />
             </button>
