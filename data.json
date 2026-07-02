@@ -158,13 +158,13 @@
     "address": "Льва Толстого, 126/19 ",
     "lat": 42.863152,
     "lng": 74.55841,
-    "area": 43,
-    "price": 72000,
+    "area": 48,
+    "price": 74000,
     "heating": "GAS",
-    "floor": 10,
+    "floor": 6,
     "floor_total": 17,
-    "document": "TECHPASPORT",
-    "additional_info": "техпаспорт через 2 месяца",
+    "document": "DDU",
+    "additional_info": "ремонт и планировка хорошие",
     "owner_phone": "+996 555 644 500",
     "imagesOrder": [
       {
@@ -322,6 +322,78 @@
         "id": 1782558202556,
         "url": "/media/1782558202550-182720167.jpg",
         "apartment_id": 6
+      }
+    ]
+  },
+  {
+    "address": "Термечикова 15",
+    "lat": 42.860957,
+    "lng": 74.55164,
+    "area": 43.5,
+    "price": 71000,
+    "heating": "GAS",
+    "floor": 7,
+    "floor_total": 10,
+    "document": "DDU",
+    "additional_info": "тех паспорт через 2 месяца\nблагоцстройство через 2 месяца",
+    "owner_phone": "+996 550 415 005",
+    "imagesOrder": [
+      {
+        "type": "new",
+        "fileIndex": 0
+      },
+      {
+        "type": "new",
+        "fileIndex": 1
+      },
+      {
+        "type": "new",
+        "fileIndex": 2
+      },
+      {
+        "type": "new",
+        "fileIndex": 3
+      },
+      {
+        "type": "new",
+        "fileIndex": 4
+      },
+      {
+        "type": "new",
+        "fileIndex": 5
+      }
+    ],
+    "id": 7,
+    "images": [
+      {
+        "id": 1782971614675,
+        "url": "/media/1782971614657-577145382.jpg",
+        "apartment_id": 7
+      },
+      {
+        "id": 1782971614676,
+        "url": "/media/1782971614665-124082375.jpg",
+        "apartment_id": 7
+      },
+      {
+        "id": 1782971614677,
+        "url": "/media/1782971614668-180740551.jpg",
+        "apartment_id": 7
+      },
+      {
+        "id": 1782971614678,
+        "url": "/media/1782971614668-717699113.jpg",
+        "apartment_id": 7
+      },
+      {
+        "id": 1782971614679,
+        "url": "/media/1782971614668-244226414.jpg",
+        "apartment_id": 7
+      },
+      {
+        "id": 1782971614680,
+        "url": "/media/1782971614669-572172774.jpg",
+        "apartment_id": 7
       }
     ]
   }
