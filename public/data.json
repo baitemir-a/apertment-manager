@@ -486,5 +486,122 @@
         "apartment_id": 8
       }
     ]
+  },
+  {
+    "address": "кок жар",
+    "lat": 42.847445,
+    "lng": 74.641358,
+    "area": 38,
+    "price": 66000,
+    "heating": "GAS",
+    "floor": 6,
+    "floor_total": 12,
+    "document": "DDU",
+    "additional_info": "хороший ремонт",
+    "owner_phone": "+996 557 499 777",
+    "imagesOrder": [
+      {
+        "type": "new",
+        "fileIndex": 0
+      },
+      {
+        "type": "new",
+        "fileIndex": 1
+      },
+      {
+        "type": "new",
+        "fileIndex": 2
+      },
+      {
+        "type": "new",
+        "fileIndex": 3
+      }
+    ],
+    "id": 9,
+    "images": [
+      {
+        "id": 1783097534717,
+        "url": "/media/1783097534708-484570535.jpg",
+        "apartment_id": 9
+      },
+      {
+        "id": 1783097534718,
+        "url": "/media/1783097534711-561675396.jpg",
+        "apartment_id": 9
+      },
+      {
+        "id": 1783097534719,
+        "url": "/media/1783097534711-674039170.jpg",
+        "apartment_id": 9
+      },
+      {
+        "id": 1783097534720,
+        "url": "/media/1783097534712-676571555.jpg",
+        "apartment_id": 9
+      }
+    ]
+  },
+  {
+    "address": "арт сити",
+    "lat": 42.813177,
+    "lng": 74.617722,
+    "area": 38,
+    "price": 74500,
+    "heating": "ELECTRIC",
+    "floor": 3,
+    "floor_total": 10,
+    "document": "DDU",
+    "additional_info": "требуется ремонт",
+    "owner_phone": "+996 500 77 75 76",
+    "imagesOrder": [
+      {
+        "type": "new",
+        "fileIndex": 0
+      },
+      {
+        "type": "new",
+        "fileIndex": 1
+      },
+      {
+        "type": "new",
+        "fileIndex": 2
+      },
+      {
+        "type": "new",
+        "fileIndex": 3
+      },
+      {
+        "type": "new",
+        "fileIndex": 4
+      }
+    ],
+    "id": 10,
+    "images": [
+      {
+        "id": 1783097862494,
+        "url": "/media/1783097862480-201625847.jpg",
+        "apartment_id": 10
+      },
+      {
+        "id": 1783097862495,
+        "url": "/media/1783097862481-813248671.jpg",
+        "apartment_id": 10
+      },
+      {
+        "id": 1783097862496,
+        "url": "/media/1783097862481-770546812.jpg",
+        "apartment_id": 10
+      },
+      {
+        "id": 1783097862497,
+        "url": "/media/1783097862485-151495481.jpg",
+        "apartment_id": 10
+      },
+      {
+        "id": 1783097862498,
+        "url": "/media/1783097862490-907809263.jpg",
+        "apartment_id": 10
+      }
+    ]
   }
 ]
